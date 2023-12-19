@@ -1,0 +1,12 @@
+togglz:
+  features:
+    TOGGLZ_APPLIED:
+      enabled: true 
+  features-file: 'file://C:/to_delete/Togglz/my-togglz-propreties.properties'
+  console:
+    secured: false 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'togglz'
